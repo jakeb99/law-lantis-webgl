@@ -39,7 +39,4 @@ public class UIController : MonoBehaviour
         JavascriptHook jh = FindAnyObjectByType<JavascriptHook>();
         jh.SendToReact("HIHIHIHIHI");
     }
-
-    //[DllImport("__Internal")]
-    //private static extern void SendPointsToReact(int points);
 }
