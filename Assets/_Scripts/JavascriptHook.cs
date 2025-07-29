@@ -61,7 +61,7 @@ public class JavascriptHook : MonoBehaviour
         switch (data.type)
         {
             case "LOAD_SCENE":
-                Debug.Log($"sceneName: {data.data}");
+                Debug.Log($"Scene Name: {data.data}");
                 SceneManager.LoadScene(data.data); 
                 break;
             default:
